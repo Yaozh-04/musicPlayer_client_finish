@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 头部 -->
+    <path
+        android:fillColor="#FA2C56"
+        android:pathData="M12,12a4,4 0 1,0 0,-8a4,4 0 1,0 0,8z"/>
+    <!-- 微笑嘴巴 -->
+    <path
+        android:strokeColor="#FA2C56"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M9,15c1,1 5,1 6,0"/>
+    <!-- 下半身/肩膀 -->
+    <path
+        android:strokeColor="#FA2C56"
+        android:strokeWidth="1.5"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,20c0,-4 16,-4 16,0"/>
+</vector> 

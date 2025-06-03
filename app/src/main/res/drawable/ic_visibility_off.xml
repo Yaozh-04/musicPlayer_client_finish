@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 眼睛外轮廓 -->
+    <path
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M1,12C2.73,7.61 7,4.5 12,4.5s9.27,3.11 11,7.5c-1.73,4.39 -6,7.5 -11,7.5S2.73,16.39 1,12z"/>
+    <!-- 眼球（用path画圆） -->
+    <path
+        android:fillColor="#B0B0B0"
+        android:pathData="M12,9a3,3 0 1,0 0,6a3,3 0 1,0 0,-6"/>
+    <!-- 斜杠 -->
+    <path
+        android:strokeColor="#B0B0B0"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,4L20,20"/>
+</vector> 

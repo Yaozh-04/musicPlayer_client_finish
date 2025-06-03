@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Loginonline" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/apple_music_red</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/apple_music_red</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorAccent">@color/apple_music_red</item>
+        <item name="android:colorAccent">@color/apple_music_red</item>
+    </style>
+
+    <style name="Theme.Loginonline" parent="Base.Theme.Loginonline" />
+
+    <!-- Base MusicPlayer client theme. -->
+    <style name="Base.Theme.MusicPlayer_client" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:statusBarColor">@android:color/white</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="colorPrimary">@color/apple_music_red</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/apple_music_red</item>
+        <item name="colorSecondaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorAccent">@color/apple_music_red</item>
+        <item name="android:colorAccent">@color/apple_music_red</item>
+    </style>
+
+    <!-- MusicPlayer client theme. -->
+    <style name="Theme.MusicPlayer_client" parent="Base.Theme.MusicPlayer_client" />
+</resources>

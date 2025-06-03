@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="purple_500">#6200EE</color>
+    <color name="apple_music_bg">#FFFFFF</color>
+    <color name="apple_music_red">#FA2C56</color>
+    <color name="apple_music_red_dark">#D81B4B</color>
+    <color name="apple_music_input_bg">#F5F5F7</color>
+    <color name="apple_music_input_border">#E5E5EA</color>
+    <color name="apple_music_text_main">#111111</color>
+    <color name="apple_music_text_hint">#8E8E93</color>
+    <color name="apple_music_text_link">#FA2C56</color>
+    <color name="apple_music_input_underline_default">#E5E5EA</color>
+    <color name="apple_music_input_underline_focused">#FA2C56</color>
+    <color name="apple_music_button_bg">#FA2C56</color>
+    <color name="apple_music_button_text">#FFFFFF</color>
+    <color name="apple_music_button_secondary_bg">#F5F5F7</color>
+    <color name="apple_music_button_secondary_text">#FA2C56</color>
+    <color name="apple_music_hint_red">#FFB6C1</color>
+    <color name="colorPrimary">#FA2C56</color>
+    <color name="colorPrimaryDark">#C81E4A</color>
+    <color name="colorAccent">#FA2C56</color>
+    <color name="colorSecondary">#FA2C56</color>
+    <color name="gray">#888888</color>
+    <color name="gray_light">#E5E5EA</color>
+    <color name="apple_music_nav_bg">#FFF5F7</color>
+    <color name="apple_music_divider">#F0F0F0</color>
+    <color name="apple_music_main">#FF2D55</color>
+</resources>

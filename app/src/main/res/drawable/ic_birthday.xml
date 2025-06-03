@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <!-- 日历外框 -->
+    <path
+        android:strokeColor="#FA2C56"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M4,5h16a2,2 0 0,1 2,2v13a2,2 0 0,1 -2,2h-16a2,2 0 0,1 -2,-2v-13a2,2 0 0,1 2,-2z"/>
+    <!-- 上方横线 -->
+    <path
+        android:strokeColor="#FA2C56"
+        android:strokeWidth="2"
+        android:fillColor="@android:color/transparent"
+        android:pathData="M2,9h20"/>
+    <!-- 圆点表示生日 -->
+    <path
+        android:fillColor="#FA2C56"
+        android:pathData="M12,15a1,1 0 1,0 0,-2a1,1 0 1,0 0,2z"/>
+</vector> 
