@@ -3,23 +3,19 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@android:color/white"
-    android:paddingTop="16dp">
+    android:background="@android:color/white">
 
     <TextView
-        android:id="@+id/tv_daily_recommend"
+        android:id="@+id/tv_local_music_title"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="每日推荐"
+        android:text="本地音乐"
         android:textSize="18sp"
         android:textStyle="bold"
-        android:textColor="@color/apple_music_main"
-        android:layout_marginStart="16dp"
-        android:layout_marginBottom="8dp"/>
+        android:layout_margin="16dp"/>
 
     <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/rv_daily_recommend"
+        android:id="@+id/rv_local_music"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"/>
+        android:layout_height="match_parent"/>
 </LinearLayout> 

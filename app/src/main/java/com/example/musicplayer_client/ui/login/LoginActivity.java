@@ -34,6 +34,8 @@ import android.graphics.Color;
 import android.graphics.drawable.GradientDrawable;
 import android.graphics.drawable.Drawable;
 import android.view.animation.AccelerateDecelerateInterpolator;
+
+import com.example.musicplayer_client.utils.Constants;
 import com.google.android.material.textfield.TextInputLayout;
 
 public class LoginActivity extends AppCompatActivity {
@@ -125,7 +127,7 @@ public class LoginActivity extends AppCompatActivity {
         etPassword.setTransformationMethod(new android.text.method.PasswordTransformationMethod());
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.110.43:8080/") // Android 模拟器访问本机用 10.0.2.2
+                .baseUrl(Constants.BASE_URL + ":8080/") // Android 模拟器访问本机用 10.0.2.2
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         apiService = retrofit.create(ApiService.class);

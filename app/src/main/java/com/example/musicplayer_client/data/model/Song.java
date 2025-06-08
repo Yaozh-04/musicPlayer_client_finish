@@ -8,6 +8,7 @@ public class Song {
     private long duration;
     private String data; // 文件路径
     private long albumId;
+    private String coverUrl; // 封面图片URL
 
     public Song() {}
 
@@ -35,4 +36,6 @@ public class Song {
     public void setData(String data) { this.data = data; }
     public long getAlbumId() { return albumId; }
     public void setAlbumId(long albumId) { this.albumId = albumId; }
+    public String getCoverUrl() { return coverUrl; }
+    public void setCoverUrl(String coverUrl) { this.coverUrl = coverUrl; }
 } 

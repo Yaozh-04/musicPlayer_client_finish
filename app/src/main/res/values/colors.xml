@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="purple_500">#6200EE</color>
     <color name="apple_music_bg">#FFFFFF</color>
     <color name="apple_music_red">#FA2C56</color>
     <color name="apple_music_red_dark">#D81B4B</color>
@@ -27,4 +31,5 @@
     <color name="apple_music_nav_bg">#FFF5F7</color>
     <color name="apple_music_divider">#F0F0F0</color>
     <color name="apple_music_main">#FF2D55</color>
+    <color name="apple_music_selected">#F5F5F5</color>
 </resources>

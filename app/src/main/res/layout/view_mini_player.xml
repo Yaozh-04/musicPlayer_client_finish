@@ -55,11 +55,27 @@
         </LinearLayout>
 
         <ImageButton
+            android:id="@+id/mini_player_prev"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_skip_previous"
+            android:contentDescription="上一首" />
+
+        <ImageButton
             android:id="@+id/mini_player_play_pause"
             android:layout_width="36dp"
             android:layout_height="36dp"
             android:background="@android:color/transparent"
-            android:src="@drawable/ic_play_arrow"
+            android:src="@drawable/ic_play"
             android:contentDescription="播放/暂停" />
+
+        <ImageButton
+            android:id="@+id/mini_player_next"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_skip_next"
+            android:contentDescription="下一首" />
     </LinearLayout>
 </com.google.android.material.card.MaterialCardView> 

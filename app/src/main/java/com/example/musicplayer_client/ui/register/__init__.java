@@ -1,1 +1,1 @@
-// 占位文件，确保 ui/register/ 目录存在于版本控制中。 
+package com.example.musicplayer_client.ui.register;// 占位文件，确保 ui/register/ 目录存在于版本控制中。

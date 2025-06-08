@@ -20,6 +20,7 @@ import com.example.musicplayer_client.data.model.RegisterRequest;
 import com.example.musicplayer_client.data.model.ApiResponse;
 import com.example.musicplayer_client.data.network.ApiService;
 import com.example.musicplayer_client.ui.login.LoginActivity;
+import com.example.musicplayer_client.utils.Constants;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -129,7 +130,7 @@ public class RegisterActivity extends AppCompatActivity {
         });
 
         Retrofit retrofit = new Retrofit.Builder()
-                .baseUrl("http://192.168.110.43:8080/") // Android 模拟器访问本机用 10.0.2.2
+                .baseUrl(Constants.BASE_URL + "/") // Android 模拟器访问本机用 10.0.2.2
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
         apiService = retrofit.create(ApiService.class);
